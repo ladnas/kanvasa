@@ -1,0 +1,810 @@
+INFO - 2024-01-24 09:31:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 09:37:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 09:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 09:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 09:38:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 09:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 09:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 09:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 09:38:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 09:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 09:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 09:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 09:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 09:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 09:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 09:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 09:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 09:40:42 --> ErrorException: foreach() argument must be of type array|object, null given
+in APPPATH\Views\detail.php on line 7.
+ 1 APPPATH\Views\detail.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 5 APPPATH\Controllers\Home.php(46): view('detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 09:43:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 09:43:11 --> ErrorException: foreach() argument must be of type array|object, null given
+in APPPATH\Views\detail.php on line 7.
+ 1 APPPATH\Views\detail.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 5 APPPATH\Controllers\Home.php(46): view('detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 09:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 09:43:12 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Views\beranda.php on line 18.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 4 APPPATH\Controllers\Home.php(23): view('beranda', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 09:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 09:43:29 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Views\beranda.php on line 18.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 4 APPPATH\Controllers\Home.php(23): view('beranda', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 09:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 09:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 09:43:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 09:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 09:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 09:43:59 --> ErrorException: Attempt to read property "lokasi_file" on string
+in APPPATH\Views\detail.php on line 12.
+ 1 APPPATH\Views\detail.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "lokasi_file" on string', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 5 APPPATH\Controllers\Home.php(46): view('detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('9')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 09:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 09:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 09:44:01 --> ErrorException: Attempt to read property "lokasi_file" on string
+in APPPATH\Views\detail.php on line 12.
+ 1 APPPATH\Views\detail.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "lokasi_file" on string', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 5 APPPATH\Controllers\Home.php(46): view('detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('10')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 09:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 09:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 09:44:03 --> ErrorException: Attempt to read property "lokasi_file" on string
+in APPPATH\Views\detail.php on line 12.
+ 1 APPPATH\Views\detail.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "lokasi_file" on string', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 5 APPPATH\Controllers\Home.php(46): view('detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('9')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 09:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 09:44:30 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\detail.php on line 12.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 4 APPPATH\Controllers\Home.php(46): view('detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('9')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 09:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 09:44:38 --> ErrorException: Attempt to read property "lokasi_file" on string
+in APPPATH\Views\detail.php on line 12.
+ 1 APPPATH\Views\detail.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "lokasi_file" on string', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 5 APPPATH\Controllers\Home.php(46): view('detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('9')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 09:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 09:45:33 --> ErrorException: Attempt to read property "judul_foto" on string
+in APPPATH\Views\detail.php on line 29.
+ 1 APPPATH\Views\detail.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul_foto" on string', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php', 29)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 5 APPPATH\Controllers\Home.php(46): view('detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('9')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 09:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 09:47:19 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\detail.php on line 29.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 4 APPPATH\Controllers\Home.php(46): view('detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('9')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 09:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 09:49:29 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\detail.php on line 29.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 4 APPPATH\Controllers\Home.php(46): view('detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('9')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 09:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 09:49:30 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\detail.php on line 29.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 4 APPPATH\Controllers\Home.php(46): view('detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('9')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 09:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 09:56:22 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\detail.php on line 29.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 4 APPPATH\Controllers\Home.php(46): view('detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('9')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 09:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 09:56:23 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\detail.php on line 29.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 4 APPPATH\Controllers\Home.php(46): view('detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('9')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 09:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 09:56:24 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\detail.php on line 29.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 4 APPPATH\Controllers\Home.php(46): view('detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('9')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 09:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 09:56:24 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\detail.php on line 29.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 4 APPPATH\Controllers\Home.php(46): view('detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('9')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 09:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 09:56:25 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\detail.php on line 29.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 4 APPPATH\Controllers\Home.php(46): view('detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('9')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 09:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 09:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 09:56:37 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\detail.php on line 29.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 4 APPPATH\Controllers\Home.php(46): view('detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('10')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 09:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 09:57:42 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\detail.php on line 29.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 4 APPPATH\Controllers\Home.php(47): view('detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('10')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 09:58:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 09:58:01 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\detail.php on line 29.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 4 APPPATH\Controllers\Home.php(47): view('detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('10')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 09:58:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 10:00:13 --> ErrorException: Undefined variable $pst
+in APPPATH\Views\detail.php on line 29.
+ 1 APPPATH\Views\detail.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pst', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php', 29)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 5 APPPATH\Controllers\Home.php(47): view('detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('10')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 10:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 10:00:20 --> ErrorException: Attempt to read property "judul_foto" on string
+in APPPATH\Views\detail.php on line 29.
+ 1 APPPATH\Views\detail.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul_foto" on string', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php', 29)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 5 APPPATH\Controllers\Home.php(47): view('detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('10')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 10:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 10:00:42 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\detail.php on line 29.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 4 APPPATH\Controllers\Home.php(47): view('detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('10')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 10:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 10:01:34 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\detail.php on line 29.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 4 APPPATH\Controllers\Home.php(47): view('detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('10')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 10:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 10:01:35 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\detail.php on line 29.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 4 APPPATH\Controllers\Home.php(47): view('detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('10')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 10:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 10:01:35 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\detail.php on line 29.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 4 APPPATH\Controllers\Home.php(47): view('detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('10')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 10:01:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 10:01:36 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\detail.php on line 29.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 4 APPPATH\Controllers\Home.php(47): view('detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('10')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 10:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 10:02:10 --> ErrorException: Undefined variable $pts
+in APPPATH\Views\detail.php on line 29.
+ 1 APPPATH\Views\detail.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pts', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php', 29)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 5 APPPATH\Controllers\Home.php(47): view('detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('10')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 10:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 10:03:01 --> ErrorException: Undefined variable $pst
+in APPPATH\Views\detail.php on line 12.
+ 1 APPPATH\Views\detail.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pst', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 5 APPPATH\Controllers\Home.php(47): view('detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('10')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 10:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 10:04:32 --> ErrorException: Attempt to read property "lokasi_file" on array
+in APPPATH\Views\detail.php on line 12.
+ 1 APPPATH\Views\detail.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "lokasi_file" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 5 APPPATH\Controllers\Home.php(47): view('detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('10')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 10:04:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 10:04:51 --> ErrorException: Undefined array key "nama_user"
+in APPPATH\Views\detail.php on line 26.
+ 1 APPPATH\Views\detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_user"', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 5 APPPATH\Controllers\Home.php(47): view('detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('10')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 10:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 10:07:03 --> ErrorException: Undefined array key "lokasi_file"
+in APPPATH\Views\detail.php on line 12.
+ 1 APPPATH\Views\detail.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "lokasi_file"', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 5 APPPATH\Controllers\Home.php(47): view('detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('10')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 10:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 10:08:03 --> ErrorException: Undefined variable $pst
+in APPPATH\Views\detail.php on line 12.
+ 1 APPPATH\Views\detail.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pst', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 5 APPPATH\Controllers\Home.php(47): view('detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('10')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 10:08:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 10:08:16 --> ErrorException: Undefined variable $foto
+in APPPATH\Views\detail.php on line 12.
+ 1 APPPATH\Views\detail.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $foto', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 5 APPPATH\Controllers\Home.php(47): view('detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('10')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 10:08:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 10:08:32 --> ErrorException: Attempt to read property "lokasi_file" on array
+in APPPATH\Views\detail.php on line 12.
+ 1 APPPATH\Views\detail.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "lokasi_file" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 5 APPPATH\Controllers\Home.php(47): view('detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('10')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 10:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 10:08:47 --> ErrorException: Attempt to read property "lokasi_file" on array
+in APPPATH\Views\detail.php on line 12.
+ 1 APPPATH\Views\detail.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "lokasi_file" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 5 APPPATH\Controllers\Home.php(47): view('detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('10')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 10:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 10:08:48 --> ErrorException: Attempt to read property "lokasi_file" on array
+in APPPATH\Views\detail.php on line 12.
+ 1 APPPATH\Views\detail.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "lokasi_file" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 5 APPPATH\Controllers\Home.php(47): view('detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('10')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 10:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 10:08:49 --> ErrorException: Attempt to read property "lokasi_file" on array
+in APPPATH\Views\detail.php on line 12.
+ 1 APPPATH\Views\detail.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "lokasi_file" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 5 APPPATH\Controllers\Home.php(47): view('detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('10')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 10:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 10:08:50 --> ErrorException: Attempt to read property "lokasi_file" on array
+in APPPATH\Views\detail.php on line 12.
+ 1 APPPATH\Views\detail.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "lokasi_file" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 5 APPPATH\Controllers\Home.php(47): view('detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('10')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 10:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 10:09:10 --> ErrorException: Undefined array key "lokasi_file"
+in APPPATH\Views\detail.php on line 12.
+ 1 APPPATH\Views\detail.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "lokasi_file"', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 5 APPPATH\Controllers\Home.php(47): view('detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('10')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 10:09:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 10:09:53 --> ErrorException: Undefined array key "nama_user"
+in APPPATH\Views\detail.php on line 26.
+ 1 APPPATH\Views\detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_user"', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 5 APPPATH\Controllers\Home.php(47): view('detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('10')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 10:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:10:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:10:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:11:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:11:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:11:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:11:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:12:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:12:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:12:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:12:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:13:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:13:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:15:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 10:15:20 --> ErrorException: Undefined array key "foto"
+in APPPATH\Controllers\Home.php on line 46.
+ 1 APPPATH\Controllers\Home.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto"', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Controllers\\Home.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('9')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 10:15:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 10:15:29 --> ErrorException: Attempt to read property "id_user" on array
+in APPPATH\Controllers\Home.php on line 46.
+ 1 APPPATH\Controllers\Home.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_user" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Controllers\\Home.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('9')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 10:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 10:16:02 --> ErrorException: Attempt to read property "id_user" on array
+in APPPATH\Controllers\Home.php on line 46.
+ 1 APPPATH\Controllers\Home.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_user" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Controllers\\Home.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('9')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 10:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 10:16:03 --> ErrorException: Attempt to read property "id_user" on array
+in APPPATH\Controllers\Home.php on line 46.
+ 1 APPPATH\Controllers\Home.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_user" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Controllers\\Home.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('9')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 10:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 10:18:40 --> ErrorException: Attempt to read property "id_user" on array
+in APPPATH\Controllers\Home.php on line 46.
+ 1 APPPATH\Controllers\Home.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_user" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Controllers\\Home.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('9')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 10:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 10:18:40 --> ErrorException: Attempt to read property "id_user" on array
+in APPPATH\Controllers\Home.php on line 46.
+ 1 APPPATH\Controllers\Home.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_user" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Controllers\\Home.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('9')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 10:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 10:18:52 --> ErrorException: Attempt to read property "user_id" on array
+in APPPATH\Controllers\Home.php on line 46.
+ 1 APPPATH\Controllers\Home.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user_id" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Controllers\\Home.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('9')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 10:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 10:25:03 --> ErrorException: Attempt to read property "user_id" on array
+in APPPATH\Controllers\Home.php on line 46.
+ 1 APPPATH\Controllers\Home.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user_id" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Controllers\\Home.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('9')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 10:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 10:25:04 --> ErrorException: Attempt to read property "user_id" on array
+in APPPATH\Controllers\Home.php on line 46.
+ 1 APPPATH\Controllers\Home.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user_id" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Controllers\\Home.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('9')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 10:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:25:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:25:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 10:25:16 --> ErrorException: Attempt to read property "user_id" on array
+in APPPATH\Controllers\Home.php on line 46.
+ 1 APPPATH\Controllers\Home.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user_id" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Controllers\\Home.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('10')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 10:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 10:26:26 --> ErrorException: Attempt to read property "user_id" on array
+in APPPATH\Controllers\Home.php on line 46.
+ 1 APPPATH\Controllers\Home.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user_id" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Controllers\\Home.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('10')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 10:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 10:30:34 --> ErrorException: Undefined array key "foto"
+in APPPATH\Controllers\Home.php on line 46.
+ 1 APPPATH\Controllers\Home.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto"', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Controllers\\Home.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('10')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 10:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 10:30:39 --> Error: Call to a member function user() on array
+in APPPATH\Controllers\Home.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('10')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 10:32:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 10:32:40 --> Error: Call to a member function user() on array
+in APPPATH\Controllers\Home.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('10')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 10:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 10:33:26 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Models\PostinganModel.php on line 26.
+ 1 APPPATH\Models\PostinganModel.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Models\\PostinganModel.php', 26)
+ 2 APPPATH\Controllers\Home.php(46): App\Models\PostinganModel->user()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('10')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 10:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 10:34:36 --> ArgumentCountError: Too few arguments to function App\Models\PostinganModel::user(), 0 passed in D:\htdocs\codeigniter4-framework-7c170c4\app\Controllers\Home.php on line 46 and exactly 1 expected
+in APPPATH\Models\PostinganModel.php on line 22.
+ 1 APPPATH\Controllers\Home.php(46): App\Models\PostinganModel->user()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('10')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 10:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 10:37:26 --> ErrorException: Attempt to read property "nama_user" on array
+in APPPATH\Views\detail.php on line 26.
+ 1 APPPATH\Views\detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_user" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 5 APPPATH\Controllers\Home.php(47): view('detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('10')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 10:38:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 10:38:07 --> ErrorException: Attempt to read property "username" on array
+in APPPATH\Views\detail.php on line 26.
+ 1 APPPATH\Views\detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 5 APPPATH\Controllers\Home.php(47): view('detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('10')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 10:38:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 10:38:19 --> ErrorException: Undefined array key "username"
+in APPPATH\Views\detail.php on line 26.
+ 1 APPPATH\Views\detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 5 APPPATH\Controllers\Home.php(47): view('detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('10')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 10:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 10:38:25 --> ErrorException: Attempt to read property "username" on array
+in APPPATH\Views\detail.php on line 26.
+ 1 APPPATH\Views\detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('detail', [], true)
+ 5 APPPATH\Controllers\Home.php(47): view('detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->detail('10')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-24 10:39:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:40:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:40:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:41:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:41:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:41:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:41:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:41:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:42:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:42:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:42:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:42:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:42:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:42:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 10:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

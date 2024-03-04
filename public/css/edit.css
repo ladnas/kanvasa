@@ -1,0 +1,20 @@
+#labels {
+  display: block;
+  margin-bottom: 8px;
+}
+
+#inputs[type="file"] {
+  margin-bottom: 16px;
+}
+
+#preview {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 16px;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+input[type="file"] {
+  margin-bottom: 16px;
+}

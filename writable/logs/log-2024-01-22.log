@@ -1,0 +1,1207 @@
+CRITICAL - 2024-01-22 03:35:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "auth/login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/login', [], true)
+ 3 APPPATH\Controllers\Auth.php(31): view('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-22 03:35:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "auth/login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/login', [], true)
+ 3 APPPATH\Controllers\Auth.php(31): view('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-22 03:35:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "auth/login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/login', [], true)
+ 3 APPPATH\Controllers\Auth.php(31): view('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-22 03:36:31 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "auth/register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/register.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/register', [], true)
+ 3 APPPATH\Controllers\Auth.php(37): view('auth/register')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->register()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-22 03:36:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "auth/register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/register.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/register', [], true)
+ 3 APPPATH\Controllers\Auth.php(37): view('auth/register')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->register()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-22 03:36:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "auth/login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/login', [], true)
+ 3 APPPATH\Controllers\Auth.php(31): view('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-22 03:37:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "auth/login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/login', [], true)
+ 3 APPPATH\Controllers\Auth.php(31): view('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-22 03:39:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-22 03:39:23 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "auth/login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/login', [], true)
+ 3 APPPATH\Controllers\Auth.php(31): view('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-22 03:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-22 03:39:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "auth/Login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/Login.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/Login', [], true)
+ 3 APPPATH\Controllers\Auth.php(31): view('auth/Login')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-22 03:40:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-22 03:40:14 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "auth/login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/login', [], true)
+ 3 APPPATH\Controllers\Auth.php(31): view('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-22 03:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-22 03:40:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "auth/login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/login', [], true)
+ 3 APPPATH\Controllers\Auth.php(30): view('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-22 03:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-22 03:42:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "auth/login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/login', [], true)
+ 3 APPPATH\Controllers\Auth.php(30): view('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-22 03:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-22 03:43:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "auth/login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/login', [], true)
+ 3 APPPATH\Controllers\Auth.php(30): view('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-22 03:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-22 03:44:33 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "auth/register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/register.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/register', [], true)
+ 3 APPPATH\Controllers\Auth.php(36): view('auth/register')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->register()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-22 03:44:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-22 03:44:34 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "auth/register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/register.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/register', [], true)
+ 3 APPPATH\Controllers\Auth.php(36): view('auth/register')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->register()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-22 03:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-22 03:44:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "auth/login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/login', [], true)
+ 3 APPPATH\Controllers\Auth.php(30): view('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-22 03:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-22 03:44:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "auth/login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('auth/login', [], true)
+ 3 APPPATH\Controllers\Auth.php(30): view('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-22 03:45:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-22 03:45:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Auth/Login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Auth/Login.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Auth/Login', [], true)
+ 3 APPPATH\Controllers\Auth.php(30): view('Auth/Login')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-22 03:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-22 03:45:03 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Auth/Login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Auth/Login.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Auth/Login', [], true)
+ 3 APPPATH\Controllers\Auth.php(30): view('Auth/Login')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-22 03:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-22 03:45:03 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Auth/Login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Auth/Login.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Auth/Login', [], true)
+ 3 APPPATH\Controllers\Auth.php(30): view('Auth/Login')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-22 03:45:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-22 03:45:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Auth/Login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Auth/Login.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Auth/Login', [], true)
+ 3 APPPATH\Controllers\Auth.php(30): view('Auth/Login')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-22 03:45:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-22 03:45:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Auth/Login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Auth/Login.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Auth/Login', [], true)
+ 3 APPPATH\Controllers\Auth.php(30): view('Auth/Login')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-22 03:45:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-22 03:45:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Auth/Login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Auth/Login.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Auth/Login', [], true)
+ 3 APPPATH\Controllers\Auth.php(30): view('Auth/Login')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-22 03:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 03:46:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 03:46:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 03:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 03:49:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-22 03:49:49 --> CodeIgniter\Validation\Exceptions\ValidationException: "register" is not a validation rules group.
+in SYSTEMPATH\Validation\Validation.php on line 740.
+ 1 SYSTEMPATH\Validation\Validation.php(740): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('register')
+ 2 SYSTEMPATH\Validation\Validation.php(147): CodeIgniter\Validation\Validation->loadRuleGroup('register')
+ 3 APPPATH\Controllers\Auth.php(45): CodeIgniter\Validation\Validation->run([...], 'register')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->valid_register()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-22 03:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 03:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 03:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 03:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 03:55:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 03:55:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 03:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 03:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 03:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 03:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 03:58:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 03:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 03:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 03:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 03:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 04:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 04:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 04:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 04:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 04:08:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 04:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 04:10:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 04:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 04:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 04:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 04:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-22 04:11:16 --> mysqli_sql_exception: Table 'galeri.users' doesn't exist in D:\htdocs\codeigniter4-framework-7c170c4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 D:\htdocs\codeigniter4-framework-7c170c4\system\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\htdocs\codeigniter4-framework-7c170c4\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('rapin', 'username', Array, NULL, 'username')
+#6 D:\htdocs\codeigniter4-framework-7c170c4\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('username', 'username', 'rapin', Array, Array)
+#7 D:\htdocs\codeigniter4-framework-7c170c4\app\Controllers\Auth.php(45): CodeIgniter\Validation\Validation->run(Array, 'register')
+#8 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(941): App\Controllers\Auth->valid_register()
+#9 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\htdocs\codeigniter4-framework-7c170c4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\htdocs\codeigniter4-framework-7c170c4\system\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codei...')
+#13 {main}
+CRITICAL - 2024-01-22 04:11:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'galeri.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('rapin', 'username', [...], null, 'username')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('username', 'username', 'rapin', [...], [...])
+ 5 APPPATH\Controllers\Auth.php(45): CodeIgniter\Validation\Validation->run([...], 'register')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->valid_register()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-22 04:11:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'galeri.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `username` = \'rapin\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `username` = \'rapin\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('rapin', 'username', [...], null, 'username')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('username', 'username', 'rapin', [...], [...])
+ 7 APPPATH\Controllers\Auth.php(45): CodeIgniter\Validation\Validation->run([...], 'register')
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->valid_register()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-22 04:11:16 --> [Caused by] mysqli_sql_exception: Table 'galeri.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `users`
+WHERE `username` = \'rapin\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `username` = \'rapin\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `username` = \'rapin\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('rapin', 'username', [...], null, 'username')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('username', 'username', 'rapin', [...], [...])
+ 8 APPPATH\Controllers\Auth.php(45): CodeIgniter\Validation\Validation->run([...], 'register')
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->valid_register()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-22 04:11:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-22 04:11:58 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in D:\htdocs\codeigniter4-framework-7c170c4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\htdocs\codeigniter4-framework-7c170c4\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\htdocs\codeigniter4-framework-7c170c4\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\htdocs\codeigniter4-framework-7c170c4\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\htdocs\codeigniter4-framework-7c170c4\system\BaseModel.php(713): CodeIgniter\Model->insert(Array, false)
+#8 D:\htdocs\codeigniter4-framework-7c170c4\app\Controllers\Auth.php(66): CodeIgniter\BaseModel->save(Array)
+#9 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(941): App\Controllers\Auth->valid_register()
+#10 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\htdocs\codeigniter4-framework-7c170c4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 D:\htdocs\codeigniter4-framework-7c170c4\system\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codei...')
+#14 {main}
+CRITICAL - 2024-01-22 04:11:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`username`, `email`, `password`, `created_at`, `updated_at`) VALUES (:username:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Auth.php(66): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->valid_register()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-22 04:11:58 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`username`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'rapin\', \'rapin@gmail.com\', \'25d55ad283aa400af464c76d713c07ad\', \'2024-01-22 04:11:58\', \'2024-01-22 04:11:58\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`username`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'rapin\', \'rapin@gmail.com\', \'25d55ad283aa400af464c76d713c07ad\', \'2024-01-22 04:11:58\', \'2024-01-22 04:11:58\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`username`, `email`, `password`, `created_at`, `updated_at`) VALUES (:username:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Auth.php(66): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->valid_register()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-22 04:11:58 --> [Caused by] mysqli_sql_exception: Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `user` (`username`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'rapin\', \'rapin@gmail.com\', \'25d55ad283aa400af464c76d713c07ad\', \'2024-01-22 04:11:58\', \'2024-01-22 04:11:58\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`username`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'rapin\', \'rapin@gmail.com\', \'25d55ad283aa400af464c76d713c07ad\', \'2024-01-22 04:11:58\', \'2024-01-22 04:11:58\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`username`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'rapin\', \'rapin@gmail.com\', \'25d55ad283aa400af464c76d713c07ad\', \'2024-01-22 04:11:58\', \'2024-01-22 04:11:58\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`username`, `email`, `password`, `created_at`, `updated_at`) VALUES (:username:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Auth.php(66): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->valid_register()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-22 04:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-22 04:12:47 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in D:\htdocs\codeigniter4-framework-7c170c4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\htdocs\codeigniter4-framework-7c170c4\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\htdocs\codeigniter4-framework-7c170c4\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\htdocs\codeigniter4-framework-7c170c4\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\htdocs\codeigniter4-framework-7c170c4\system\BaseModel.php(713): CodeIgniter\Model->insert(Array, false)
+#8 D:\htdocs\codeigniter4-framework-7c170c4\app\Controllers\Auth.php(66): CodeIgniter\BaseModel->save(Array)
+#9 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(941): App\Controllers\Auth->valid_register()
+#10 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\htdocs\codeigniter4-framework-7c170c4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 D:\htdocs\codeigniter4-framework-7c170c4\system\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codei...')
+#14 {main}
+CRITICAL - 2024-01-22 04:12:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`username`, `email`, `password`, `created_at`, `updated_at`) VALUES (:username:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Auth.php(66): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->valid_register()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-22 04:12:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`username`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'rapin\', \'rapin@gmail.com\', \'25d55ad283aa400af464c76d713c07ad\', \'2024-01-22 04:12:47\', \'2024-01-22 04:12:47\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`username`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'rapin\', \'rapin@gmail.com\', \'25d55ad283aa400af464c76d713c07ad\', \'2024-01-22 04:12:47\', \'2024-01-22 04:12:47\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`username`, `email`, `password`, `created_at`, `updated_at`) VALUES (:username:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Auth.php(66): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->valid_register()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-22 04:12:47 --> [Caused by] mysqli_sql_exception: Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `user` (`username`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'rapin\', \'rapin@gmail.com\', \'25d55ad283aa400af464c76d713c07ad\', \'2024-01-22 04:12:47\', \'2024-01-22 04:12:47\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`username`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'rapin\', \'rapin@gmail.com\', \'25d55ad283aa400af464c76d713c07ad\', \'2024-01-22 04:12:47\', \'2024-01-22 04:12:47\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`username`, `email`, `password`, `created_at`, `updated_at`) VALUES (\'rapin\', \'rapin@gmail.com\', \'25d55ad283aa400af464c76d713c07ad\', \'2024-01-22 04:12:47\', \'2024-01-22 04:12:47\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`username`, `email`, `password`, `created_at`, `updated_at`) VALUES (:username:, :email:, :password:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Auth.php(66): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->valid_register()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-22 04:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 04:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 04:14:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 04:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 04:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 04:15:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 04:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 04:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 04:19:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 05:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 05:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 05:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 05:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 05:45:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 05:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-22 05:47:18 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\Layout\Base.php on line 43.
+ 1 APPPATH\Views\Layout\Base.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\Layout\\Base.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\Layout\\Base.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('Layout/Base', [], true)
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('beranda')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-22 05:48:28 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\Layout\Base.php on line 43.
+ 1 APPPATH\Views\Layout\Base.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\Layout\\Base.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\Layout\\Base.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('Layout/Base', [], true)
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('beranda')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-22 05:48:28 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\Layout\Base.php on line 43.
+ 1 APPPATH\Views\Layout\Base.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\Layout\\Base.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\Layout\\Base.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('Layout/Base', [], true)
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('beranda')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-22 05:49:16 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\Layout\Base.php on line 43.
+ 1 APPPATH\Views\Layout\Base.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\Layout\\Base.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\Layout\\Base.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('Layout/Base', [], true)
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('beranda')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-22 05:49:17 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\Layout\Base.php on line 43.
+ 1 APPPATH\Views\Layout\Base.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\Layout\\Base.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\Layout\\Base.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('Layout/Base', [], true)
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('beranda')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-22 05:49:18 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\Layout\Base.php on line 43.
+ 1 APPPATH\Views\Layout\Base.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\Layout\\Base.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\Layout\\Base.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('Layout/Base', [], true)
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('beranda')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-22 05:52:30 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\Layout\Base.php on line 43.
+ 1 APPPATH\Views\Layout\Base.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\Layout\\Base.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\Layout\\Base.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('Layout/Base', [], true)
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('beranda')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-22 05:52:31 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\Layout\Base.php on line 43.
+ 1 APPPATH\Views\Layout\Base.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\Layout\\Base.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\Layout\\Base.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('Layout/Base', [], true)
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('beranda')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-22 05:53:03 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\Layout\Base.php on line 43.
+ 1 APPPATH\Views\Layout\Base.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\Layout\\Base.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\Layout\\Base.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('Layout/Base', [], true)
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('beranda')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-22 05:53:04 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\Layout\Base.php on line 43.
+ 1 APPPATH\Views\Layout\Base.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\Layout\\Base.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\Layout\\Base.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('Layout/Base', [], true)
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('beranda')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-22 05:54:41 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\Layout\Base.php on line 43.
+ 1 APPPATH\Views\Layout\Base.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\Layout\\Base.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\Layout\\Base.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('Layout/Base', [], true)
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('beranda')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-22 05:54:42 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\Layout\Base.php on line 43.
+ 1 APPPATH\Views\Layout\Base.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\Layout\\Base.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\Layout\\Base.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('Layout/Base', [], true)
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('beranda')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-22 05:56:09 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\Layout\Base.php on line 43.
+ 1 APPPATH\Views\Layout\Base.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\Layout\\Base.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\Layout\\Base.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('Layout/Base', [], true)
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('beranda')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-22 05:56:45 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\Layout\Base.php on line 43.
+ 1 APPPATH\Views\Layout\Base.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\Layout\\Base.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\Layout\\Base.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('Layout/Base', [], true)
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('beranda')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-22 05:57:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 05:57:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 05:57:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 05:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 05:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 05:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 05:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 05:59:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 05:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 06:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 06:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 06:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 06:01:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 06:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 06:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 06:03:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 06:03:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 06:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 06:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 06:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 06:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 06:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 06:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 06:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 06:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 06:04:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 06:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 06:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 06:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 06:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 06:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 06:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 06:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 06:05:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 06:05:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 06:05:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 06:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 06:12:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 06:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 06:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 06:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 06:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 07:17:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 07:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 07:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 07:30:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 07:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 07:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-22 07:31:32 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\Post.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Post->posting()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-22 07:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-22 07:32:19 --> mysqli_sql_exception: Column 'user_id' cannot be null in D:\htdocs\codeigniter4-framework-7c170c4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `fo...', 0)
+#1 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fo...')
+#2 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fo...')
+#3 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fo...', Array, false)
+#4 D:\htdocs\codeigniter4-framework-7c170c4\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\htdocs\codeigniter4-framework-7c170c4\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\htdocs\codeigniter4-framework-7c170c4\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\htdocs\codeigniter4-framework-7c170c4\app\Controllers\Post.php(54): CodeIgniter\Model->insert(Array)
+#8 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(941): App\Controllers\Post->posting()
+#9 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#10 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\htdocs\codeigniter4-framework-7c170c4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\htdocs\codeigniter4-framework-7c170c4\system\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codei...')
+#13 {main}
+CRITICAL - 2024-01-22 07:32:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (:judul_foto:, :user_id:, :desk_foto:, :lokasi_file:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Post.php(54): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Post->posting()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-22 07:32:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'postingan pertama\', NULL, \'ini postingan pertama ku cuy\', \'1705908739_b5ce2855b1e3e93bfc18.jpg\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'postingan pertama\', NULL, \'ini postingan pertama ku cuy\', \'1705908739_b5ce2855b1e3e93bfc18.jpg\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (:judul_foto:, :user_id:, :desk_foto:, :lokasi_file:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Post.php(54): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Post->posting()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-22 07:32:19 --> [Caused by] mysqli_sql_exception: Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'postingan pertama\', NULL, \'ini postingan pertama ku cuy\', \'1705908739_b5ce2855b1e3e93bfc18.jpg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'postingan pertama\', NULL, \'ini postingan pertama ku cuy\', \'1705908739_b5ce2855b1e3e93bfc18.jpg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'postingan pertama\', NULL, \'ini postingan pertama ku cuy\', \'1705908739_b5ce2855b1e3e93bfc18.jpg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (:judul_foto:, :user_id:, :desk_foto:, :lokasi_file:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Post.php(54): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Post->posting()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-22 07:34:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-22 07:34:17 --> mysqli_sql_exception: Column 'user_id' cannot be null in D:\htdocs\codeigniter4-framework-7c170c4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `fo...', 0)
+#1 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fo...')
+#2 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fo...')
+#3 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fo...', Array, false)
+#4 D:\htdocs\codeigniter4-framework-7c170c4\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\htdocs\codeigniter4-framework-7c170c4\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\htdocs\codeigniter4-framework-7c170c4\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\htdocs\codeigniter4-framework-7c170c4\app\Controllers\Post.php(54): CodeIgniter\Model->insert(Array)
+#8 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(941): App\Controllers\Post->posting()
+#9 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#10 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\htdocs\codeigniter4-framework-7c170c4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\htdocs\codeigniter4-framework-7c170c4\system\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codei...')
+#13 {main}
+CRITICAL - 2024-01-22 07:34:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (:judul_foto:, :user_id:, :desk_foto:, :lokasi_file:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Post.php(54): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Post->posting()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-22 07:34:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'postingan pertama\', NULL, \'ini postingan pertama ku cuy\', \'1705908857_4d828428d868acc10921.jpg\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'postingan pertama\', NULL, \'ini postingan pertama ku cuy\', \'1705908857_4d828428d868acc10921.jpg\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (:judul_foto:, :user_id:, :desk_foto:, :lokasi_file:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Post.php(54): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Post->posting()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-22 07:34:17 --> [Caused by] mysqli_sql_exception: Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'postingan pertama\', NULL, \'ini postingan pertama ku cuy\', \'1705908857_4d828428d868acc10921.jpg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'postingan pertama\', NULL, \'ini postingan pertama ku cuy\', \'1705908857_4d828428d868acc10921.jpg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'postingan pertama\', NULL, \'ini postingan pertama ku cuy\', \'1705908857_4d828428d868acc10921.jpg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (:judul_foto:, :user_id:, :desk_foto:, :lokasi_file:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Post.php(54): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Post->posting()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-22 07:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 07:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-22 07:34:25 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`galeri`.`foto`, CONSTRAINT `foto_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`)) in D:\htdocs\codeigniter4-framework-7c170c4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `fo...', 0)
+#1 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fo...')
+#2 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fo...')
+#3 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fo...', Array, false)
+#4 D:\htdocs\codeigniter4-framework-7c170c4\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\htdocs\codeigniter4-framework-7c170c4\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\htdocs\codeigniter4-framework-7c170c4\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\htdocs\codeigniter4-framework-7c170c4\app\Controllers\Post.php(54): CodeIgniter\Model->insert(Array)
+#8 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(941): App\Controllers\Post->posting()
+#9 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#10 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\htdocs\codeigniter4-framework-7c170c4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\htdocs\codeigniter4-framework-7c170c4\system\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codei...')
+#13 {main}
+CRITICAL - 2024-01-22 07:34:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`galeri`.`foto`, CONSTRAINT `foto_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (:judul_foto:, :user_id:, :desk_foto:, :lokasi_file:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Post.php(54): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Post->posting()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-22 07:34:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`galeri`.`foto`, CONSTRAINT `foto_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'postingan pertama\', \'\', \'ini postingan pertama ku cuy\', \'1705908865_22ca14e8111550b00766.jpg\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'postingan pertama\', \'\', \'ini postingan pertama ku cuy\', \'1705908865_22ca14e8111550b00766.jpg\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (:judul_foto:, :user_id:, :desk_foto:, :lokasi_file:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Post.php(54): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Post->posting()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-22 07:34:25 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`galeri`.`foto`, CONSTRAINT `foto_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'postingan pertama\', \'\', \'ini postingan pertama ku cuy\', \'1705908865_22ca14e8111550b00766.jpg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'postingan pertama\', \'\', \'ini postingan pertama ku cuy\', \'1705908865_22ca14e8111550b00766.jpg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'postingan pertama\', \'\', \'ini postingan pertama ku cuy\', \'1705908865_22ca14e8111550b00766.jpg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (:judul_foto:, :user_id:, :desk_foto:, :lokasi_file:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Post.php(54): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Post->posting()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-22 07:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-22 07:39:19 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`galeri`.`foto`, CONSTRAINT `foto_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`)) in D:\htdocs\codeigniter4-framework-7c170c4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `fo...', 0)
+#1 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fo...')
+#2 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fo...')
+#3 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fo...', Array, false)
+#4 D:\htdocs\codeigniter4-framework-7c170c4\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\htdocs\codeigniter4-framework-7c170c4\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\htdocs\codeigniter4-framework-7c170c4\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\htdocs\codeigniter4-framework-7c170c4\app\Controllers\Post.php(54): CodeIgniter\Model->insert(Array)
+#8 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(941): App\Controllers\Post->posting()
+#9 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#10 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\htdocs\codeigniter4-framework-7c170c4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\htdocs\codeigniter4-framework-7c170c4\system\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codei...')
+#13 {main}
+CRITICAL - 2024-01-22 07:39:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`galeri`.`foto`, CONSTRAINT `foto_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (:judul_foto:, :user_id:, :desk_foto:, :lokasi_file:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Post.php(54): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Post->posting()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-22 07:39:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`galeri`.`foto`, CONSTRAINT `foto_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'postingan pertama\', \'\', \'ini postingan pertama ku cuy\', \'1705909159_e3856a34e9c0adb90d53.jpg\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'postingan pertama\', \'\', \'ini postingan pertama ku cuy\', \'1705909159_e3856a34e9c0adb90d53.jpg\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (:judul_foto:, :user_id:, :desk_foto:, :lokasi_file:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Post.php(54): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Post->posting()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-22 07:39:19 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`galeri`.`foto`, CONSTRAINT `foto_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'postingan pertama\', \'\', \'ini postingan pertama ku cuy\', \'1705909159_e3856a34e9c0adb90d53.jpg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'postingan pertama\', \'\', \'ini postingan pertama ku cuy\', \'1705909159_e3856a34e9c0adb90d53.jpg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'postingan pertama\', \'\', \'ini postingan pertama ku cuy\', \'1705909159_e3856a34e9c0adb90d53.jpg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (:judul_foto:, :user_id:, :desk_foto:, :lokasi_file:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Post.php(54): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Post->posting()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-22 07:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 07:39:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-22 07:39:25 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`galeri`.`foto`, CONSTRAINT `foto_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`)) in D:\htdocs\codeigniter4-framework-7c170c4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `fo...', 0)
+#1 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fo...')
+#2 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fo...')
+#3 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fo...', Array, false)
+#4 D:\htdocs\codeigniter4-framework-7c170c4\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\htdocs\codeigniter4-framework-7c170c4\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\htdocs\codeigniter4-framework-7c170c4\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\htdocs\codeigniter4-framework-7c170c4\app\Controllers\Post.php(54): CodeIgniter\Model->insert(Array)
+#8 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(941): App\Controllers\Post->posting()
+#9 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#10 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\htdocs\codeigniter4-framework-7c170c4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\htdocs\codeigniter4-framework-7c170c4\system\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codei...')
+#13 {main}
+CRITICAL - 2024-01-22 07:39:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`galeri`.`foto`, CONSTRAINT `foto_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (:judul_foto:, :user_id:, :desk_foto:, :lokasi_file:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Post.php(54): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Post->posting()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-22 07:39:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`galeri`.`foto`, CONSTRAINT `foto_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'postingan pertama\', \'\', \'ini postingan pertama ku cuy\', \'1705909165_2d388e1d9497549d44c4.jpg\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'postingan pertama\', \'\', \'ini postingan pertama ku cuy\', \'1705909165_2d388e1d9497549d44c4.jpg\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (:judul_foto:, :user_id:, :desk_foto:, :lokasi_file:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Post.php(54): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Post->posting()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-22 07:39:25 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`galeri`.`foto`, CONSTRAINT `foto_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'postingan pertama\', \'\', \'ini postingan pertama ku cuy\', \'1705909165_2d388e1d9497549d44c4.jpg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'postingan pertama\', \'\', \'ini postingan pertama ku cuy\', \'1705909165_2d388e1d9497549d44c4.jpg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'postingan pertama\', \'\', \'ini postingan pertama ku cuy\', \'1705909165_2d388e1d9497549d44c4.jpg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (:judul_foto:, :user_id:, :desk_foto:, :lokasi_file:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Post.php(54): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Post->posting()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-22 07:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 07:39:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 07:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-22 07:39:38 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`galeri`.`foto`, CONSTRAINT `foto_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`)) in D:\htdocs\codeigniter4-framework-7c170c4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `fo...', 0)
+#1 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fo...')
+#2 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fo...')
+#3 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fo...', Array, false)
+#4 D:\htdocs\codeigniter4-framework-7c170c4\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\htdocs\codeigniter4-framework-7c170c4\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\htdocs\codeigniter4-framework-7c170c4\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\htdocs\codeigniter4-framework-7c170c4\app\Controllers\Post.php(54): CodeIgniter\Model->insert(Array)
+#8 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(941): App\Controllers\Post->posting()
+#9 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#10 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\htdocs\codeigniter4-framework-7c170c4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\htdocs\codeigniter4-framework-7c170c4\system\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codei...')
+#13 {main}
+CRITICAL - 2024-01-22 07:39:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`galeri`.`foto`, CONSTRAINT `foto_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (:judul_foto:, :user_id:, :desk_foto:, :lokasi_file:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Post.php(54): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Post->posting()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-22 07:39:38 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`galeri`.`foto`, CONSTRAINT `foto_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'postingan pertama\', \'\', \'tes post 1\', \'1705909178_730c1cbb54f7de862d7d.jpg\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'postingan pertama\', \'\', \'tes post 1\', \'1705909178_730c1cbb54f7de862d7d.jpg\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (:judul_foto:, :user_id:, :desk_foto:, :lokasi_file:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Post.php(54): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Post->posting()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-22 07:39:38 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`galeri`.`foto`, CONSTRAINT `foto_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'postingan pertama\', \'\', \'tes post 1\', \'1705909178_730c1cbb54f7de862d7d.jpg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'postingan pertama\', \'\', \'tes post 1\', \'1705909178_730c1cbb54f7de862d7d.jpg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'postingan pertama\', \'\', \'tes post 1\', \'1705909178_730c1cbb54f7de862d7d.jpg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (:judul_foto:, :user_id:, :desk_foto:, :lokasi_file:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Post.php(54): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Post->posting()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-22 07:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 07:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 07:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 08:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 08:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 08:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 08:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 08:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 08:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 08:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 08:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 08:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 08:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 08:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 08:08:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 08:08:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 08:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 08:08:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 08:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-22 08:15:29 --> Error: Class "App\Controllers\UserModel" not found
+in APPPATH\Controllers\Post.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Post->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-22 08:17:40 --> Error: Class "App\Controllers\UserModel" not found
+in APPPATH\Controllers\Post.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Post->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-22 08:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-22 08:18:34 --> ErrorException: Undefined variable $user_id
+in APPPATH\Controllers\Post.php on line 30.
+ 1 APPPATH\Controllers\Post.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_id', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Controllers\\Post.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Post->buat()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-22 08:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-22 08:19:27 --> ArgumentCountError: Too few arguments to function App\Controllers\Post::buat(), 0 passed in D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH\Controllers\Post.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Post->buat()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-22 08:21:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 08:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-22 08:22:41 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`galeri`.`foto`, CONSTRAINT `foto_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`)) in D:\htdocs\codeigniter4-framework-7c170c4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `fo...', 0)
+#1 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fo...')
+#2 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fo...')
+#3 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fo...', Array, false)
+#4 D:\htdocs\codeigniter4-framework-7c170c4\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\htdocs\codeigniter4-framework-7c170c4\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\htdocs\codeigniter4-framework-7c170c4\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\htdocs\codeigniter4-framework-7c170c4\app\Controllers\Post.php(53): CodeIgniter\Model->insert(Array)
+#8 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(941): App\Controllers\Post->posting()
+#9 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#10 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\htdocs\codeigniter4-framework-7c170c4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\htdocs\codeigniter4-framework-7c170c4\system\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codei...')
+#13 {main}
+CRITICAL - 2024-01-22 08:22:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`galeri`.`foto`, CONSTRAINT `foto_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (:judul_foto:, :user_id:, :desk_foto:, :lokasi_file:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Post.php(53): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Post->posting()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-22 08:22:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`galeri`.`foto`, CONSTRAINT `foto_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'postingan pertama\', \'\', \'Lorem ipsum dolor sit amet, consectetur adipiscing elit.\', \'1705911761_8b49f18cd47cf7fce1d3.jpg\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'postingan pertama\', \'\', \'Lorem ipsum dolor sit amet, consectetur adipiscing elit.\', \'1705911761_8b49f18cd47cf7fce1d3.jpg\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (:judul_foto:, :user_id:, :desk_foto:, :lokasi_file:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Post.php(53): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Post->posting()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-22 08:22:41 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`galeri`.`foto`, CONSTRAINT `foto_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'postingan pertama\', \'\', \'Lorem ipsum dolor sit amet, consectetur adipiscing elit.\', \'1705911761_8b49f18cd47cf7fce1d3.jpg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'postingan pertama\', \'\', \'Lorem ipsum dolor sit amet, consectetur adipiscing elit.\', \'1705911761_8b49f18cd47cf7fce1d3.jpg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'postingan pertama\', \'\', \'Lorem ipsum dolor sit amet, consectetur adipiscing elit.\', \'1705911761_8b49f18cd47cf7fce1d3.jpg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (:judul_foto:, :user_id:, :desk_foto:, :lokasi_file:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Post.php(53): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Post->posting()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-22 08:23:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 08:23:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

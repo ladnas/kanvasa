@@ -1,0 +1,23 @@
+.dropdown-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+.kanan {
+    margin-left: -40px;
+}
+
+.dropdown-wrapper .dropdown {
+    margin-left: auto;
+}
+@media (max-width: 767px) {
+   
+    .kanan {
+        margin-left: -30px;
+    }
+    .bawah{
+        margin-bottom: 60px;
+    }
+}

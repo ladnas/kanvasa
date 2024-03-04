@@ -1,0 +1,1295 @@
+INFO - 2024-01-23 02:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 02:52:15 --> Error: Class "App\Controllers\UserModel" not found
+in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 02:53:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 02:53:03 --> ErrorException: Undefined variable $post
+in APPPATH\Views\beranda.php on line 16.
+ 1 APPPATH\Views\beranda.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $post', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php', 16)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(23): view('beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 02:55:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 02:55:56 --> ErrorException: Undefined variable $post
+in APPPATH\Views\beranda.php on line 16.
+ 1 APPPATH\Views\beranda.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $post', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php', 16)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(23): view('beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 02:58:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 02:58:11 --> BadMethodCallException: Call to undefined method App\Models\PostinganModel::getData
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Home.php(23): CodeIgniter\Model->__call('getData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 02:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 02:58:12 --> BadMethodCallException: Call to undefined method App\Models\PostinganModel::getData
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Home.php(23): CodeIgniter\Model->__call('getData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 02:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 02:58:56 --> ErrorException: Undefined variable $post
+in APPPATH\Views\beranda.php on line 16.
+ 1 APPPATH\Views\beranda.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $post', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php', 16)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 02:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 02:59:36 --> ErrorException: Undefined variable $post
+in APPPATH\Views\beranda.php on line 16.
+ 1 APPPATH\Views\beranda.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $post', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php', 16)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 02:59:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 02:59:37 --> ErrorException: Undefined variable $post
+in APPPATH\Views\beranda.php on line 16.
+ 1 APPPATH\Views\beranda.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $post', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php', 16)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 03:01:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 03:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 03:03:17 --> ErrorException: Undefined variable $pengaduan
+in APPPATH\Views\beranda.php on line 19.
+ 1 APPPATH\Views\beranda.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengaduan', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php', 19)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 03:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 03:03:30 --> ErrorException: Undefined array key "foto"
+in APPPATH\Views\beranda.php on line 19.
+ 1 APPPATH\Views\beranda.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto"', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php', 19)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 03:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 03:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 03:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 03:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 03:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 03:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 03:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 03:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 03:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 03:05:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 03:05:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 03:05:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 03:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 04:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 04:27:40 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\beranda.php on line 50.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 4 APPPATH\Controllers\Home.php(23): view('beranda', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 04:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 04:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 04:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 04:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 04:31:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 04:31:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 04:31:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 04:31:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 04:31:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 04:41:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 04:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 04:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 04:43:01 --> ErrorException: Attempt to read property "user" on array
+in APPPATH\Views\beranda.php on line 23.
+ 1 APPPATH\Views\beranda.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(23): view('beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 04:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 04:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 04:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 04:43:25 --> ErrorException: Attempt to read property "user" on array
+in APPPATH\Views\beranda.php on line 23.
+ 1 APPPATH\Views\beranda.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(23): view('beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 04:45:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 04:45:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 04:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-23 04:46:10 --> mysqli_sql_exception: Column 'user_id' cannot be null in D:\htdocs\codeigniter4-framework-7c170c4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `fo...', 0)
+#1 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fo...')
+#2 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fo...')
+#3 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fo...', Array, false)
+#4 D:\htdocs\codeigniter4-framework-7c170c4\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\htdocs\codeigniter4-framework-7c170c4\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\htdocs\codeigniter4-framework-7c170c4\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\htdocs\codeigniter4-framework-7c170c4\app\Controllers\Post.php(53): CodeIgniter\Model->insert(Array)
+#8 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(941): App\Controllers\Post->posting()
+#9 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#10 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\htdocs\codeigniter4-framework-7c170c4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\htdocs\codeigniter4-framework-7c170c4\system\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codei...')
+#13 {main}
+CRITICAL - 2024-01-23 04:46:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (:judul_foto:, :user_id:, :desk_foto:, :lokasi_file:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Post.php(53): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Post->posting()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-23 04:46:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'Tes postingan\', NULL, \'Tes satu\', \'1705985170_4bb2ba91b4a021b9c977.jpg\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'Tes postingan\', NULL, \'Tes satu\', \'1705985170_4bb2ba91b4a021b9c977.jpg\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (:judul_foto:, :user_id:, :desk_foto:, :lokasi_file:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Post.php(53): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Post->posting()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-23 04:46:10 --> [Caused by] mysqli_sql_exception: Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'Tes postingan\', NULL, \'Tes satu\', \'1705985170_4bb2ba91b4a021b9c977.jpg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'Tes postingan\', NULL, \'Tes satu\', \'1705985170_4bb2ba91b4a021b9c977.jpg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'Tes postingan\', NULL, \'Tes satu\', \'1705985170_4bb2ba91b4a021b9c977.jpg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (:judul_foto:, :user_id:, :desk_foto:, :lokasi_file:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Post.php(53): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Post->posting()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 04:48:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-23 04:48:56 --> mysqli_sql_exception: Column 'user_id' cannot be null in D:\htdocs\codeigniter4-framework-7c170c4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `fo...', 0)
+#1 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fo...')
+#2 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fo...')
+#3 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fo...', Array, false)
+#4 D:\htdocs\codeigniter4-framework-7c170c4\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\htdocs\codeigniter4-framework-7c170c4\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\htdocs\codeigniter4-framework-7c170c4\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\htdocs\codeigniter4-framework-7c170c4\app\Controllers\Post.php(50): CodeIgniter\Model->insert(Array)
+#8 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(941): App\Controllers\Post->posting()
+#9 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#10 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\htdocs\codeigniter4-framework-7c170c4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\htdocs\codeigniter4-framework-7c170c4\system\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codei...')
+#13 {main}
+CRITICAL - 2024-01-23 04:48:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (:judul_foto:, :user_id:, :desk_foto:, :lokasi_file:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Post.php(50): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Post->posting()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-23 04:48:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'Tes postingan\', NULL, \'Tes satu\', \'1705985336_545eb985515cdf610dcf.jpg\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'Tes postingan\', NULL, \'Tes satu\', \'1705985336_545eb985515cdf610dcf.jpg\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (:judul_foto:, :user_id:, :desk_foto:, :lokasi_file:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Post.php(50): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Post->posting()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-23 04:48:56 --> [Caused by] mysqli_sql_exception: Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'Tes postingan\', NULL, \'Tes satu\', \'1705985336_545eb985515cdf610dcf.jpg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'Tes postingan\', NULL, \'Tes satu\', \'1705985336_545eb985515cdf610dcf.jpg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'Tes postingan\', NULL, \'Tes satu\', \'1705985336_545eb985515cdf610dcf.jpg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (:judul_foto:, :user_id:, :desk_foto:, :lokasi_file:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Post.php(50): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Post->posting()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 04:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 04:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 04:52:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 04:52:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-23 04:52:45 --> mysqli_sql_exception: Column 'user_id' cannot be null in D:\htdocs\codeigniter4-framework-7c170c4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `fo...', 0)
+#1 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fo...')
+#2 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fo...')
+#3 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fo...', Array, false)
+#4 D:\htdocs\codeigniter4-framework-7c170c4\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\htdocs\codeigniter4-framework-7c170c4\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\htdocs\codeigniter4-framework-7c170c4\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\htdocs\codeigniter4-framework-7c170c4\app\Controllers\Post.php(50): CodeIgniter\Model->insert(Array)
+#8 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(941): App\Controllers\Post->posting()
+#9 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#10 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\htdocs\codeigniter4-framework-7c170c4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\htdocs\codeigniter4-framework-7c170c4\system\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codei...')
+#13 {main}
+CRITICAL - 2024-01-23 04:52:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (:judul_foto:, :user_id:, :desk_foto:, :lokasi_file:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Post.php(50): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Post->posting()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-23 04:52:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'Tes postingan\', NULL, \'Ini tes pos cuy\', \'1705985565_9c28c3cbf1d6e2dd26cc.jpg\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'Tes postingan\', NULL, \'Ini tes pos cuy\', \'1705985565_9c28c3cbf1d6e2dd26cc.jpg\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (:judul_foto:, :user_id:, :desk_foto:, :lokasi_file:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Post.php(50): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Post->posting()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-23 04:52:45 --> [Caused by] mysqli_sql_exception: Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'Tes postingan\', NULL, \'Ini tes pos cuy\', \'1705985565_9c28c3cbf1d6e2dd26cc.jpg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'Tes postingan\', NULL, \'Ini tes pos cuy\', \'1705985565_9c28c3cbf1d6e2dd26cc.jpg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'Tes postingan\', NULL, \'Ini tes pos cuy\', \'1705985565_9c28c3cbf1d6e2dd26cc.jpg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (:judul_foto:, :user_id:, :desk_foto:, :lokasi_file:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Post.php(50): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Post->posting()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 04:53:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 04:55:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 04:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 04:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 04:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 04:59:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 04:59:56 --> TypeError: view(): Argument #2 ($data) must be of type array, null given, called in D:\htdocs\codeigniter4-framework-7c170c4\app\Controllers\Post.php on line 27
+in SYSTEMPATH\Common.php on line 1166.
+ 1 APPPATH\Controllers\Post.php(27): view('buat', null)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Post->buat()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 05:01:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 05:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 05:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 05:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 05:04:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 05:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 05:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-23 05:04:44 --> mysqli_sql_exception: Column 'user_id' cannot be null in D:\htdocs\codeigniter4-framework-7c170c4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `fo...', 0)
+#1 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fo...')
+#2 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fo...')
+#3 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fo...', Array, false)
+#4 D:\htdocs\codeigniter4-framework-7c170c4\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\htdocs\codeigniter4-framework-7c170c4\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\htdocs\codeigniter4-framework-7c170c4\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\htdocs\codeigniter4-framework-7c170c4\app\Controllers\Post.php(51): CodeIgniter\Model->insert(Array)
+#8 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(941): App\Controllers\Post->posting()
+#9 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#10 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\htdocs\codeigniter4-framework-7c170c4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\htdocs\codeigniter4-framework-7c170c4\system\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codei...')
+#13 {main}
+CRITICAL - 2024-01-23 05:04:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (:judul_foto:, :user_id:, :desk_foto:, :lokasi_file:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Post.php(51): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Post->posting()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-23 05:04:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'Tes postingan\', NULL, \'Tes post\', \'1705986284_dc341b59e6200d1fb722.jpg\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'Tes postingan\', NULL, \'Tes post\', \'1705986284_dc341b59e6200d1fb722.jpg\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (:judul_foto:, :user_id:, :desk_foto:, :lokasi_file:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Post.php(51): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Post->posting()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-23 05:04:44 --> [Caused by] mysqli_sql_exception: Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'Tes postingan\', NULL, \'Tes post\', \'1705986284_dc341b59e6200d1fb722.jpg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'Tes postingan\', NULL, \'Tes post\', \'1705986284_dc341b59e6200d1fb722.jpg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (\'Tes postingan\', NULL, \'Tes post\', \'1705986284_dc341b59e6200d1fb722.jpg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `foto` (`judul_foto`, `user_id`, `desk_foto`, `lokasi_file`) VALUES (:judul_foto:, :user_id:, :desk_foto:, :lokasi_file:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Post.php(51): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Post->posting()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 05:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 05:07:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 05:07:02 --> ErrorException: Undefined variable $userId
+in APPPATH\Views\buat.php on line 37.
+ 1 APPPATH\Views\buat.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userId', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\buat.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\buat.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('buat', [], true)
+ 5 APPPATH\Controllers\Post.php(27): view('buat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Post->buat()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 05:07:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 05:07:48 --> ErrorException: Undefined variable $userId
+in APPPATH\Views\buat.php on line 37.
+ 1 APPPATH\Views\buat.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userId', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\buat.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\buat.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('buat', [], true)
+ 5 APPPATH\Controllers\Post.php(27): view('buat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Post->buat()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 05:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 05:15:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 05:15:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 05:15:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 05:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 05:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 05:15:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 05:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 05:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 05:15:47 --> ErrorException: Attempt to read property "user" on array
+in APPPATH\Views\beranda.php on line 23.
+ 1 APPPATH\Views\beranda.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(23): view('beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 05:22:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 05:22:03 --> ErrorException: Attempt to read property "user" on array
+in APPPATH\Views\beranda.php on line 23.
+ 1 APPPATH\Views\beranda.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(23): view('beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 05:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 05:22:05 --> ErrorException: Attempt to read property "user" on array
+in APPPATH\Views\beranda.php on line 23.
+ 1 APPPATH\Views\beranda.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(23): view('beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 05:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 05:24:10 --> ErrorException: Attempt to read property "user_id" on array
+in APPPATH\Views\beranda.php on line 23.
+ 1 APPPATH\Views\beranda.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user_id" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(23): view('beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 05:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 05:24:16 --> ErrorException: Attempt to read property "user" on array
+in APPPATH\Views\beranda.php on line 23.
+ 1 APPPATH\Views\beranda.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(23): view('beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 05:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 05:24:25 --> ErrorException: Attempt to read property "user" on array
+in APPPATH\Views\beranda.php on line 23.
+ 1 APPPATH\Views\beranda.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(23): view('beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 05:24:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 05:24:26 --> ErrorException: Attempt to read property "user" on array
+in APPPATH\Views\beranda.php on line 23.
+ 1 APPPATH\Views\beranda.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(23): view('beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 05:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 05:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 05:24:57 --> ErrorException: Attempt to read property "username" on array
+in APPPATH\Views\beranda.php on line 23.
+ 1 APPPATH\Views\beranda.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(23): view('beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 05:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 05:25:06 --> ErrorException: Attempt to read property "user" on array
+in APPPATH\Views\beranda.php on line 23.
+ 1 APPPATH\Views\beranda.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(23): view('beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 05:30:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 05:30:42 --> ErrorException: Attempt to read property "user" on array
+in APPPATH\Views\beranda.php on line 23.
+ 1 APPPATH\Views\beranda.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(23): view('beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 05:31:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 05:31:07 --> ErrorException: Attempt to read property "user" on array
+in APPPATH\Views\beranda.php on line 23.
+ 1 APPPATH\Views\beranda.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(23): view('beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 05:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 05:31:08 --> ErrorException: Attempt to read property "user" on array
+in APPPATH\Views\beranda.php on line 23.
+ 1 APPPATH\Views\beranda.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(23): view('beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 05:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 05:31:09 --> ErrorException: Attempt to read property "user" on array
+in APPPATH\Views\beranda.php on line 23.
+ 1 APPPATH\Views\beranda.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(23): view('beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 05:34:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 05:34:42 --> ErrorException: Attempt to read property "user" on array
+in APPPATH\Views\beranda.php on line 23.
+ 1 APPPATH\Views\beranda.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(23): view('beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 05:34:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 05:34:43 --> ErrorException: Attempt to read property "user" on array
+in APPPATH\Views\beranda.php on line 23.
+ 1 APPPATH\Views\beranda.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(23): view('beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 05:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 05:34:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 05:34:45 --> ErrorException: Attempt to read property "user" on array
+in APPPATH\Views\beranda.php on line 23.
+ 1 APPPATH\Views\beranda.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(23): view('beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 05:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 05:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 05:35:22 --> ErrorException: Attempt to read property "user" on array
+in APPPATH\Views\beranda.php on line 23.
+ 1 APPPATH\Views\beranda.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(23): view('beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 05:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 05:35:56 --> ErrorException: Attempt to read property "user" on array
+in APPPATH\Views\beranda.php on line 23.
+ 1 APPPATH\Views\beranda.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(23): view('beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 05:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 05:40:47 --> ErrorException: Attempt to read property "user" on array
+in APPPATH\Controllers\Home.php on line 27.
+ 1 APPPATH\Controllers\Home.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Controllers\\Home.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 05:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 05:40:49 --> ErrorException: Attempt to read property "user" on array
+in APPPATH\Controllers\Home.php on line 27.
+ 1 APPPATH\Controllers\Home.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Controllers\\Home.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 05:41:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 05:41:36 --> ErrorException: Undefined variable $data
+in APPPATH\Controllers\Home.php on line 24.
+ 1 APPPATH\Controllers\Home.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Controllers\\Home.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 05:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 05:41:45 --> ErrorException: Attempt to read property "user" on array
+in APPPATH\Controllers\Home.php on line 27.
+ 1 APPPATH\Controllers\Home.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Controllers\\Home.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 05:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 05:43:10 --> ErrorException: Attempt to read property "username" on array
+in APPPATH\Controllers\Home.php on line 30.
+ 1 APPPATH\Controllers\Home.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Controllers\\Home.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 05:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 05:43:31 --> ErrorException: Attempt to read property "user" on array
+in APPPATH\Views\beranda.php on line 23.
+ 1 APPPATH\Views\beranda.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(33): view('beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 05:43:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 05:43:53 --> ErrorException: Attempt to read property "username" on array
+in APPPATH\Views\beranda.php on line 23.
+ 1 APPPATH\Views\beranda.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(33): view('beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 05:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 05:44:21 --> ErrorException: Attempt to read property "username" on array
+in APPPATH\Controllers\Home.php on line 30.
+ 1 APPPATH\Controllers\Home.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Controllers\\Home.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 05:45:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 05:45:30 --> ErrorException: Attempt to read property "username" on array
+in APPPATH\Controllers\Home.php on line 33.
+ 1 APPPATH\Controllers\Home.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Controllers\\Home.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 05:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 05:45:32 --> ErrorException: Attempt to read property "username" on array
+in APPPATH\Controllers\Home.php on line 33.
+ 1 APPPATH\Controllers\Home.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Controllers\\Home.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 05:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 05:45:33 --> ErrorException: Attempt to read property "username" on array
+in APPPATH\Controllers\Home.php on line 33.
+ 1 APPPATH\Controllers\Home.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Controllers\\Home.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 05:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 05:45:33 --> ErrorException: Attempt to read property "username" on array
+in APPPATH\Controllers\Home.php on line 33.
+ 1 APPPATH\Controllers\Home.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Controllers\\Home.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 05:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 05:45:34 --> ErrorException: Attempt to read property "username" on array
+in APPPATH\Controllers\Home.php on line 33.
+ 1 APPPATH\Controllers\Home.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Controllers\\Home.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 05:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 05:45:34 --> ErrorException: Attempt to read property "username" on array
+in APPPATH\Controllers\Home.php on line 33.
+ 1 APPPATH\Controllers\Home.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Controllers\\Home.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 09:49:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 09:49:44 --> BadMethodCallException: Call to undefined method App\Models\PostinganModel::belongsTo
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Models\PostinganModel.php(15): CodeIgniter\Model->__call('belongsTo', [...])
+ 2 APPPATH\Controllers\Home.php(22): App\Models\PostinganModel->user()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-23 09:55:53 --> ParseError: syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\Home.php on line 40.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 09:56:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 09:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 09:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 09:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 09:56:18 --> ErrorException: Attempt to read property "username" on array
+in APPPATH\Controllers\Home.php on line 32.
+ 1 APPPATH\Controllers\Home.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Controllers\\Home.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 09:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 09:57:19 --> BadMethodCallException: Call to undefined method App\Models\PostinganModel::with
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Home.php(24): CodeIgniter\Model->__call('with', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 09:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 09:58:20 --> ErrorException: Attempt to read property "username" on array
+in APPPATH\Controllers\Home.php on line 32.
+ 1 APPPATH\Controllers\Home.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on array', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Controllers\\Home.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 10:00:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 10:00:43 --> ErrorException: Undefined property: App\Controllers\Home::$db
+in APPPATH\Controllers\Home.php on line 24.
+ 1 APPPATH\Controllers\Home.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$db', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Controllers\\Home.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 10:01:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 10:01:18 --> ErrorException: Undefined array key "user"
+in APPPATH\Views\beranda.php on line 23.
+ 1 APPPATH\Views\beranda.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user"', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(22): view('beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 10:01:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 10:01:19 --> ErrorException: Undefined array key "user"
+in APPPATH\Views\beranda.php on line 23.
+ 1 APPPATH\Views\beranda.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user"', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(22): view('beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 10:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 10:01:20 --> ErrorException: Undefined array key "user"
+in APPPATH\Views\beranda.php on line 23.
+ 1 APPPATH\Views\beranda.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user"', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(22): view('beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 10:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 10:01:21 --> ErrorException: Undefined array key "user"
+in APPPATH\Views\beranda.php on line 23.
+ 1 APPPATH\Views\beranda.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user"', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(22): view('beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 10:01:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 10:01:21 --> ErrorException: Undefined array key "user"
+in APPPATH\Views\beranda.php on line 23.
+ 1 APPPATH\Views\beranda.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user"', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(22): view('beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 10:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 10:01:22 --> ErrorException: Undefined array key "user"
+in APPPATH\Views\beranda.php on line 23.
+ 1 APPPATH\Views\beranda.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user"', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(22): view('beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 10:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 10:01:22 --> ErrorException: Undefined array key "user"
+in APPPATH\Views\beranda.php on line 23.
+ 1 APPPATH\Views\beranda.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user"', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(22): view('beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 10:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 10:01:23 --> ErrorException: Undefined array key "user"
+in APPPATH\Views\beranda.php on line 23.
+ 1 APPPATH\Views\beranda.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user"', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(22): view('beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 10:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 10:01:51 --> ErrorException: Undefined array key "user_id"
+in APPPATH\Views\beranda.php on line 23.
+ 1 APPPATH\Views\beranda.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\htdocs\\codeigniter4-framework-7c170c4\\app\\Views\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(22): view('beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 10:02:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 10:02:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 10:02:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 10:02:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 10:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 10:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 10:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 10:02:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 10:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 10:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 10:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-23 10:03:01 --> mysqli_sql_exception: Duplicate entry '2' for key 'user_id' in D:\htdocs\codeigniter4-framework-7c170c4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `fo...', 0)
+#1 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fo...')
+#2 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fo...')
+#3 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fo...', Array, false)
+#4 D:\htdocs\codeigniter4-framework-7c170c4\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\htdocs\codeigniter4-framework-7c170c4\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\htdocs\codeigniter4-framework-7c170c4\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\htdocs\codeigniter4-framework-7c170c4\app\Controllers\Post.php(51): CodeIgniter\Model->insert(Array)
+#8 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(941): App\Controllers\Post->posting()
+#9 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#10 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\htdocs\codeigniter4-framework-7c170c4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 D:\htdocs\codeigniter4-framework-7c170c4\system\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codei...')
+#13 {main}
+CRITICAL - 2024-01-23 10:03:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '2' for key 'user_id'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `foto` (`judul_foto`, `id_user`, `desk_foto`, `lokasi_file`) VALUES (:judul_foto:, :id_user:, :desk_foto:, :lokasi_file:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Post.php(51): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Post->posting()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-23 10:03:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '2' for key 'user_id'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `foto` (`judul_foto`, `id_user`, `desk_foto`, `lokasi_file`) VALUES (\'ini post ke 3\', \'2\', \'ini postingan ke 3\', \'1706004181_7be6f87b01a893c58b1d.png\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `foto` (`judul_foto`, `id_user`, `desk_foto`, `lokasi_file`) VALUES (\'ini post ke 3\', \'2\', \'ini postingan ke 3\', \'1706004181_7be6f87b01a893c58b1d.png\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `foto` (`judul_foto`, `id_user`, `desk_foto`, `lokasi_file`) VALUES (:judul_foto:, :id_user:, :desk_foto:, :lokasi_file:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Post.php(51): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Post->posting()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-23 10:03:01 --> [Caused by] mysqli_sql_exception: Duplicate entry '2' for key 'user_id'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `foto` (`judul_foto`, `id_user`, `desk_foto`, `lokasi_file`) VALUES (\'ini post ke 3\', \'2\', \'ini postingan ke 3\', \'1706004181_7be6f87b01a893c58b1d.png\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `foto` (`judul_foto`, `id_user`, `desk_foto`, `lokasi_file`) VALUES (\'ini post ke 3\', \'2\', \'ini postingan ke 3\', \'1706004181_7be6f87b01a893c58b1d.png\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `foto` (`judul_foto`, `id_user`, `desk_foto`, `lokasi_file`) VALUES (\'ini post ke 3\', \'2\', \'ini postingan ke 3\', \'1706004181_7be6f87b01a893c58b1d.png\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `foto` (`judul_foto`, `id_user`, `desk_foto`, `lokasi_file`) VALUES (:judul_foto:, :id_user:, :desk_foto:, :lokasi_file:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Post.php(51): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Post->posting()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 10:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 10:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 10:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-23 10:09:50 --> mysqli_sql_exception: Table 'galeri.users' doesn't exist in D:\htdocs\codeigniter4-framework-7c170c4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `foto`.*...', 0)
+#1 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `foto`.*...')
+#2 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `foto`.*...')
+#3 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `foto`.*...', Array, false)
+#4 D:\htdocs\codeigniter4-framework-7c170c4\system\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\htdocs\codeigniter4-framework-7c170c4\app\Models\PostinganModel.php(18): CodeIgniter\Model->__call('get', Array)
+#6 D:\htdocs\codeigniter4-framework-7c170c4\app\Controllers\Home.php(22): App\Models\PostinganModel->getFotoWithUsername()
+#7 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(941): App\Controllers\Home->index()
+#8 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\htdocs\codeigniter4-framework-7c170c4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\htdocs\codeigniter4-framework-7c170c4\system\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codei...')
+#12 {main}
+CRITICAL - 2024-01-23 10:09:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'galeri.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `foto`.*, `users`.`username` AS `nama_user`
+FROM `foto`
+JOIN `users` ON `users`.`id` = `foto`.`id_user`', [], false)
+ 2 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Models\PostinganModel.php(18): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH\Controllers\Home.php(22): App\Models\PostinganModel->getFotoWithUsername()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-23 10:09:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'galeri.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `foto`.*, `users`.`username` AS `nama_user`
+FROM `foto`
+JOIN `users` ON `users`.`id` = `foto`.`id_user`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `foto`.*, `users`.`username` AS `nama_user`
+FROM `foto`
+JOIN `users` ON `users`.`id` = `foto`.`id_user`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `foto`.*, `users`.`username` AS `nama_user`
+FROM `foto`
+JOIN `users` ON `users`.`id` = `foto`.`id_user`', [], false)
+ 4 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Models\PostinganModel.php(18): CodeIgniter\Model->__call('get', [])
+ 6 APPPATH\Controllers\Home.php(22): App\Models\PostinganModel->getFotoWithUsername()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-23 10:09:50 --> [Caused by] mysqli_sql_exception: Table 'galeri.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `foto`.*, `users`.`username` AS `nama_user`
+FROM `foto`
+JOIN `users` ON `users`.`id` = `foto`.`id_user`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `foto`.*, `users`.`username` AS `nama_user`
+FROM `foto`
+JOIN `users` ON `users`.`id` = `foto`.`id_user`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `foto`.*, `users`.`username` AS `nama_user`
+FROM `foto`
+JOIN `users` ON `users`.`id` = `foto`.`id_user`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `foto`.*, `users`.`username` AS `nama_user`
+FROM `foto`
+JOIN `users` ON `users`.`id` = `foto`.`id_user`', [], false)
+ 5 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\PostinganModel.php(18): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Home.php(22): App\Models\PostinganModel->getFotoWithUsername()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 10:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-23 10:10:18 --> mysqli_sql_exception: Unknown column 'user.id' in 'on clause' in D:\htdocs\codeigniter4-framework-7c170c4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `foto`.*...', 0)
+#1 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `foto`.*...')
+#2 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `foto`.*...')
+#3 D:\htdocs\codeigniter4-framework-7c170c4\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `foto`.*...', Array, false)
+#4 D:\htdocs\codeigniter4-framework-7c170c4\system\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\htdocs\codeigniter4-framework-7c170c4\app\Models\PostinganModel.php(18): CodeIgniter\Model->__call('get', Array)
+#6 D:\htdocs\codeigniter4-framework-7c170c4\app\Controllers\Home.php(22): App\Models\PostinganModel->getFotoWithUsername()
+#7 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(941): App\Controllers\Home->index()
+#8 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\htdocs\codeigniter4-framework-7c170c4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\htdocs\codeigniter4-framework-7c170c4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\htdocs\codeigniter4-framework-7c170c4\system\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codei...')
+#12 {main}
+CRITICAL - 2024-01-23 10:10:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'user.id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `foto`.*, `user`.`username` AS `nama_user`
+FROM `foto`
+JOIN `user` ON `user`.`id` = `foto`.`id_user`', [], false)
+ 2 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Models\PostinganModel.php(18): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH\Controllers\Home.php(22): App\Models\PostinganModel->getFotoWithUsername()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-23 10:10:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'user.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `foto`.*, `user`.`username` AS `nama_user`
+FROM `foto`
+JOIN `user` ON `user`.`id` = `foto`.`id_user`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `foto`.*, `user`.`username` AS `nama_user`
+FROM `foto`
+JOIN `user` ON `user`.`id` = `foto`.`id_user`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `foto`.*, `user`.`username` AS `nama_user`
+FROM `foto`
+JOIN `user` ON `user`.`id` = `foto`.`id_user`', [], false)
+ 4 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Models\PostinganModel.php(18): CodeIgniter\Model->__call('get', [])
+ 6 APPPATH\Controllers\Home.php(22): App\Models\PostinganModel->getFotoWithUsername()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+CRITICAL - 2024-01-23 10:10:18 --> [Caused by] mysqli_sql_exception: Unknown column 'user.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `foto`.*, `user`.`username` AS `nama_user`
+FROM `foto`
+JOIN `user` ON `user`.`id` = `foto`.`id_user`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `foto`.*, `user`.`username` AS `nama_user`
+FROM `foto`
+JOIN `user` ON `user`.`id` = `foto`.`id_user`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `foto`.*, `user`.`username` AS `nama_user`
+FROM `foto`
+JOIN `user` ON `user`.`id` = `foto`.`id_user`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `foto`.*, `user`.`username` AS `nama_user`
+FROM `foto`
+JOIN `user` ON `user`.`id` = `foto`.`id_user`', [], false)
+ 5 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\PostinganModel.php(18): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Home.php(22): App\Models\PostinganModel->getFotoWithUsername()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 10:10:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 10:10:26 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Views\beranda.php on line 19.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 4 APPPATH\Controllers\Home.php(23): view('beranda', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 10:12:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 10:12:20 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Views\beranda.php on line 46.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 4 APPPATH\Controllers\Home.php(23): view('beranda', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 10:12:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 10:12:21 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Views\beranda.php on line 46.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 4 APPPATH\Controllers\Home.php(23): view('beranda', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 10:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-23 10:12:22 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Views\beranda.php on line 46.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('beranda', [], true)
+ 4 APPPATH\Controllers\Home.php(23): view('beranda', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\htdocs\\codeigniter4-framework-7c170c4\\public\\index.php')
+INFO - 2024-01-23 10:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 10:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 10:13:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 10:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 10:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 10:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 10:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 10:13:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 10:13:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 10:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 10:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 10:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 10:42:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 10:42:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 10:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 10:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,82 @@
+.upload-container {
+    position: relative;
+    width: 125px; /* Atur lebar dan tinggi ke nilai yang diinginkan */
+    height: 125px; /* Atur lebar dan tinggi ke nilai yang diinginkan */
+    border: 5px dashed #ddd;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.upload-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; /* Menggunakan object-fit: cover untuk menjaga aspek rasio dan mengisi container */
+    border-radius: 50%;
+}
+
+.upload-text {
+    position: absolute;
+    color: #ffffff;
+    text-align: center;
+}
+
+.square-container {
+    position: relative;
+    width: 100%;
+    padding-top: 100%; /* Ratio 1:1 */
+}
+
+.square-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Make the image fill the container with the correct aspect ratio */
+}
+.fotoprofil {
+    width: 170px; /* Lebar foto profil pada tampilan handphone */
+    height: 170px; /* Tinggi foto profil pada tampilan handphone */
+    object-fit: cover;
+    margin-left: 40px;
+
+}
+
+@media (max-width: 767px) {
+    .fotoprofil {
+        width: 100px; /* Lebar foto profil pada tampilan handphone */
+        height: 100px; /* Tinggi foto profil pada tampilan handphone */
+        margin-left: 30px;
+    }
+    .ms-md-4 {
+        margin-left: 15px; /* Menghilangkan margin kiri pada tampilan handphone */
+    }
+    .square-container {
+        padding-top: 150px; /* Reduce padding on mobile view */
+        margin-bottom: 10px;
+    }
+    .square-image {
+        width: 100%;
+        height: 100%;
+    }
+    .nav-tengah {
+        justify-content: center;
+        margin-left: -40px;
+    }
+
+    .tengah{
+        margin-left: -10px;
+    }
+
+    .bawah{
+        margin-bottom: 60px;
+    }
+
+    /* Atur ukuran teks pada tag <p> */
+    .smaller-text {
+        font-size: 17px; /* Atur ukuran teks sesuai kebutuhan */
+    } 
+}
